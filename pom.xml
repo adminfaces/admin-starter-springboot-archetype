@@ -4,7 +4,7 @@
 
   <groupId>com.github.adminfaces</groupId>
   <artifactId>admin-starter-springboot-archetype</artifactId>
-  <version>1.0.0-RC19-SNAPSHOT</version>
+  <version>1.0.0-RC19</version>
   <packaging>maven-archetype</packaging>
 
   <name>admin-starter-archetype-springboot</name>
@@ -25,18 +25,18 @@
     </developer>
   </developers>
 
-  <licenses>
+   <licenses>
     <license>
-      <name>The Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <name>The MIT License (MIT)</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
     </license>
   </licenses>
-
   <scm>
-    <connection>scm:git:https://github.com/joinfaces/joinfaces.git/joinfaces-parent/admin-starter</connection>
-    <developerConnection>scm:git:https://github.com/joinfaces/joinfaces.git/joinfaces-parent/admin-starter</developerConnection>
-    <tag>joinfaces-build-3.2.0</tag>
-    <url>scm:git:https://github.com/joinfaces/joinfaces.git/joinfaces-parent/admin-starter</url>
+    <connection>scm:git:https://github.com/adminfaces/admin-starter-springboot-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:adminfaces/admin-starter-springboot-archetype.git</developerConnection>
+    <url>https://github.com/adminfaces/admin-starter-springboot-archetype.git</url>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
