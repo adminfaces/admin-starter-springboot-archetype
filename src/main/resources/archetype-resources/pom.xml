@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.joinfaces</groupId>
         <artifactId>joinfaces-parent</artifactId>
-        <version>3.2.0</version> <!-- lookup parent from repository -->
+        <version>3.2.6</version> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
@@ -18,20 +18,6 @@
         <mojarra.version>2.3.4</mojarra.version>
     </properties>
     
-    <dependencyManagement> 
-        <dependencies>
-            <dependency>
-                <groupId>com.github.adminfaces</groupId>
-                <artifactId>admin-template</artifactId>
-                <version>1.0.0-RC19</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.adminfaces</groupId>
-                <artifactId>admin-theme</artifactId>
-                <version>1.0.0-RC19</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement> 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
