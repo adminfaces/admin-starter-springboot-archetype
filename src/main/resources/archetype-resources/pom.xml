@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.joinfaces</groupId>
         <artifactId>joinfaces-parent</artifactId>
-        <version>3.2.6</version> <!-- lookup parent from repository -->
+        <version>4.0.2</version> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
@@ -23,12 +23,17 @@
             <dependency>
                 <groupId>com.github.adminfaces</groupId>
                 <artifactId>admin-template</artifactId>
-                <version>1.0.0-RC20</version>
+                <version>1.0.0-RC21</version>
             </dependency>
             <dependency>
                 <groupId>com.github.adminfaces</groupId>
                 <artifactId>admin-theme</artifactId>
-                <version>1.0.0-RC20</version>
+                <version>1.0.0-RC21</version>
+            </dependency>
+            <dependency>
+                <groupId>org.primefaces</groupId>
+                <artifactId>primefaces</artifactId>
+                <version>7.0</version>
             </dependency>
         </dependencies>    
     </dependencyManagement>  
@@ -53,7 +58,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>admin-starter</finalName>
+        <finalName>${artifactId}</finalName>
         <resources>
             <resource>
                 <filtering>true</filtering>
