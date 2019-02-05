@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.joinfaces</groupId>
         <artifactId>joinfaces-parent</artifactId>
-        <version>4.0.2</version> <!-- lookup parent from repository -->
+        <version>3.2.6</version> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
@@ -33,7 +33,7 @@
             <dependency>
                 <groupId>org.primefaces</groupId>
                 <artifactId>primefaces</artifactId>
-                <version>7.0</version>
+                <version>7.0.RC2</version>
             </dependency>
         </dependencies>    
     </dependencyManagement>  
@@ -85,4 +85,12 @@
             </plugin>
         </plugins>
     </build>
+	<repositories>
+		<repository>
+			<id>prime-repo</id>
+			<name>PrimeFaces Maven Repository</name>
+			<url>http://repository.primefaces.org</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
 </project>
